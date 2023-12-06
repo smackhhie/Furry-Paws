@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="nav.css">
+  <style>
+    .text-custom-color {
+      color: #6D6875;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+
+<!-- 6D6875  -->
+<body>
+
+    <nav class="bg-white text-custom-color font-bold w-full px-52 py-1 mb-3 flex justify-between items-center">
+        <div class="flex items-center">
+            <div class="mr-4">LOGO</div>
+            <div class="space-x-10">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+            </div>
+        </div>
+    
+        <div class="space-x-4 ml-auto">
+            <button class="bg-[#6D6875] hover:bg-white hover:text-[#6D6875] text-white font-bold py-1 px-4 rounded">Login</button>
+            <button class="bg-[#6D6875] hover:bg-white hover:text-[#6D6875] text-white font-bold py-1 px-4 rounded">Sign Up</button>
+        </div>
+    </nav>
+
+    <div class="cover_pic bg-cover bg-center py-[-1]" style="background-image: url('images/cover.jpeg');">
+        <div class=" p-8 rounded-md shadow-md flex flex-col items-center">
+            
+            <input type="text" id="username" name="username" class="mt-1 p-2 border rounded-md w-60">
+            <button class="bg-white hover:bg-gray-100 text-gray-800 font-bold py-1 px-4 rounded search">
+                Search
+              </button>
+            
+          </div>
+        
+    </div>
+    
+
+
+  </body>
+</html>

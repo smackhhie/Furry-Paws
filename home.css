@@ -4,8 +4,9 @@ body {
 }
 
 .head{
-    display: flex;
-    border: 17px;
+    display: grid;
+    grid-template-columns: 50px 10px 0px;
+    height: 20px;
 }
 
 .navBar {
@@ -16,7 +17,9 @@ body {
     margin-top: 10px;
 }
 
-
+.item2{
+    
+}
 .loginButton{
     background-color: #6D6875;
     color: white;
@@ -48,7 +51,19 @@ body {
 }
 
 
-
-.logo{
-    width: 30%;
-}
+.cover_photo {
+    display: block;
+    width: 100%; /* You can adjust this width as needed */
+    max-width: 600px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    overflow: hidden;
+    border: 1px solid #ccc;
+    position: relative;
+  }
+  
+  /* Style the image within the container */
+  .cover_photo img {
+    width: 100%;
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Remove any extra spacing below the image */
+  }

@@ -1,0 +1,36 @@
+.cover_pic{
+    margin-top: -10px;
+}
+.cover_pic img{
+    width: 1750px;
+    height: 600px;
+    margin-top: -10px;
+}
+
+/* Optional styling for better appearance */
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .input-container {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  } */
+  

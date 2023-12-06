@@ -1,0 +1,54 @@
+/* styles.css */
+body {
+    background-color:white;  
+}
+
+.head{
+    display: flex;
+    border: 17px;
+}
+
+.navBar {
+    display: flex;
+    background-color: #6D6875;
+    width: 100%; /* Adjust width to 100% to fill the available space */
+    height: 50px;
+    margin-top: 10px;
+}
+
+
+.loginButton{
+    background-color: #6D6875;
+    color: white;
+    border-radius: 7px;
+    border: 0;
+    padding: 4px 20px;
+    margin-left: 1450px;
+    font-size: larger;
+}
+
+.signupButton{
+    background-color: #6D6875;
+    color: white;
+    border-radius: 7px;
+    border: 0;
+    padding: 4px 20px;
+    margin-left: 5px;
+    font-size: larger;
+}
+
+.animals_cats,.Adopt,.animals_dogs{
+    background-color: #6D6875;
+    color: white;
+    border-radius: 7px;
+    border: 0;
+    padding: 4px 20px;
+    margin-left: 5px;
+    font-size: larger;
+}
+
+
+
+.logo{
+    width: 30%;
+}

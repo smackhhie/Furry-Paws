@@ -9,14 +9,17 @@
     .text-custom-color {
       color: #6D6875;
     }
+    .font-tinos {
+            font-family: 'Tinos', serif;
+        }
   </style>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Tinos:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
 
 <!-- 6D6875  -->
-<body>
-
-    <nav class="bg-white text-custom-color font-bold w-full px-52 py-1 mb-3 flex justify-between items-center">
+<body class="text-base">
+    <nav class="bg-white text-custom-color w-full px-52 py-4 -mb-1 flex justify-between items-center">
         <div class="flex items-center">
             <div class="mr-4">LOGO</div>
             <div class="space-x-10">
@@ -25,25 +28,137 @@
             </div>
         </div>
     
-        <div class="space-x-4 ml-auto">
-            <button class="bg-[#6D6875] hover:bg-white hover:text-[#6D6875] text-white font-bold py-1 px-4 rounded">Login</button>
-            <button class="bg-[#6D6875] hover:bg-white hover:text-[#6D6875] text-white font-bold py-1 px-4 rounded">Sign Up</button>
+        <div class="space-x-4 ml-auto border-black">
+            <button class="bg-white hover:bg-[#6D6875] hover:text-white py-1 px-4 rounded transition-all ease-in duration-150">Sign Up</button>
+            <button class="bg-white hover:bg-[#6D6875] hover:text-white py-1 px-4 rounded transition-all ease-in duration-150">Login</button>
         </div>
     </nav>
 
-    <div class="cover_pic bg-cover bg-center py-[-1]" style="background-image: url('images/cover.jpeg');">
-        <div class=" p-8 rounded-md shadow-md flex flex-col items-center">
-            
-            <input type="text" id="username" name="username" class="mt-1 p-2 border rounded-md w-60">
-            <button class="bg-white hover:bg-gray-100 text-gray-800 font-bold py-1 px-4 rounded search">
-                Search
-              </button>
-            
-          </div>
-        
-    </div>
-    
+    <div class="cover_pic bg-cover bg-center py-[-1] " style="background-image: url('images/cover.png');">
+        <!-- <div class="b bg-[#6D6875] flex items-center space-x-14 text-[#FFF8DC] px-52 py-6 text-lg">
+            <div>Adopt or Get involved</div>
+            <div>Dogs and Puppies</div>
+            <div>Cats and Kittens</div>
+            <div>Other Types of Pets</div>
+        </div> -->
 
+        <div class="flex flex-row mx-auto pt-16 pb-10p justify-center">
+            <div class="flex bg-[#FFF8DC] items-center justify-items-center w-55p z-[0] pl-2 text-lg">
+                <input type="text" id="username" name="username" class="p-3 border bg-[#FFF8DC] border-none w-70p rounded">
+                <img src="images/icons/dark/searchline.svg" class="mini-icon px-1 w-3 h-10 bg-[#FFF8DC] z-[-1]">
+                <input type="text" id="username" name="username" class="p-3 border bg-[#FFF8DC] border-none w-70p rounded">
+                <button class="rounded"><img src="images/icons/dark/search.png" class="mini-icon w-100p"></button>
+            </div>
+            
+        </div>
+
+        <div class="text-[#FFF8DC] text-6xl pb-9p text-center">Find your new COMPANION</div>
+
+        <div class="bg-[#6D6875] mt-28 shadow-2xl">
+            <div class="h-7">
+        </div>
+    </div>
+
+    <div class="flex -mt-32  justify-between px-20p h-48 z-[1] font-bold text-lg">
+        <button class="flex justify-center items-center mt-30p bg-[#FFF8DC] hover:bg-[#D1CFC6] hover:text-white rounded-lg transition-all ease-in duration-150 w-48 border-[#6D6875] border-2 ">
+            <div class="flex flex-col">
+                <img src="images/icons/dark/search.png" class="h-32">
+                <div>DOGS</div>
+            </div>
+        </button>
+        <button class="flex justify-center items-center bg-[#FFF8DC] hover:bg-[#6D6875] hover:text-white rounded-lg transition-all ease-in duration-150 w-48 border-[#6D6875] border-2">
+            <div class="flex flex-col">
+                <img src="images/icons/dark/search.png" class="h-32">
+                <div>CATS</div>
+            </div>
+        </button>
+        <button class="flex justify-center items-center bg-[#FFF8DC] hover:bg-[#6D6875] hover:text-white rounded-lg transition-all ease-in duration-150 w-48 border-[#6D6875] border-2">
+            <div class="flex flex-col">
+                <img src="images/icons/dark/search.png" class="h-32">
+                <div>OTHERS</div>
+            </div>
+        </button>
+        <button class="flex justify-center items-center bg-[#FFF8DC] hover:bg-[#6D6875] hover:text-white rounded-lg transition-all ease-in duration-150 w-48 border-[#6D6875] border-2">
+            <div class="flex flex-col">
+                <img src="images/icons/dark/search.png" class="h-32">
+                <div>DOGS</div>
+            </div>
+        </button>
+    </div>
+
+<!-- ------------------------------------------ -->
+    
+    <div class="flex flex-col bg-[#D8D7D8] -mt-20 px-20p h-100 z-[1] font-bold text-lg items-center shadow-lg">
+        <div class="flex items-center justify-center pt-10p ">
+            <p class="text-4xl text-[#6D6875] font-bold underline">PETS AVAILABLE FOR ADOPTION NEARBY</p>
+          </div>
+          
+
+        <div class="flex justify-evenly pt-9p pb-10p" >
+
+        
+            <button class="DOG flex justify-center items-center  bg-[#FFF8DC] w-30p  mt-30p hover:bg-[#6D6875] hover:text-white rounded-lg"> 
+                <div class="flex flex-col">
+                    <img src="images\cats\aston.jpeg" class="h-60">
+                    <div class="m-2">NAME</div>
+                </div>
+            </button>
+    
+            <button class="DOG flex justify-center bg-[#FFF8DC] w-30p  mt-30p hover:bg-[#6D6875] hover:text-white rounded-lg"> 
+                <div class="flex flex-col">
+                    <img src="images\cats\aston.jpeg" class="h-60">
+                    <div class="m-2">NAME</div>
+                </div>
+            </button>
+    
+            <button class="DOG flex justify-center bg-[#FFF8DC] w-30p  mt-30p hover:bg-[#6D6875] hover:text-white rounded-lg"> 
+                <div class="flex flex-col">
+                    <img src="images\cats\aston.jpeg" class="h-60">
+                    <div class="m-2">NAME</div>
+                </div>
+            </button>
+    
+            <button class="DOG flex justify-center bg-[#FFF8DC] w-30p  mt-30p hover:bg-[#6D6875] hover:text-white rounded-lg"> 
+                <div class="flex flex-col">
+                    <img src="images\cats\aston.jpeg" class="h-60">
+                    <div class="m-2">NAME</div>
+                </div>
+            </button>
+        </div>
+
+    </div>
+<!--     
+------------------------------------------------------ -->
+    <div>
+
+        <div class="flex items-center justify-center pt-5p">
+            <p class="text-4xl text-[#6D6875] font-bold underline">PLANNING TO ADOPT?</p>
+
+          </div>
+
+
+        <div class="flex justify-evenly pt-5p">
+            <button class="DOG flex justify-center bg-[#D8D7D8] w-30p  mt-30p hover:bg-[#6D6875] hover:text-white rounded-lg"> 
+                <div class="flex flex-col">
+                    <img src="images\icons\dark\animal-shelter.png" class="mx-auto mt-6">
+                    <div class="m-2 mr-5 ml-5  text-2xl text-[#6D6875] font-bold hover:text-white"><p class="m-5 mt-2 mb-1"> CHECKLIST FOR NEW ADOPTERS </p></div>
+                    
+                    <div class="mb-8"> <p class="justify-center" >Make the adoption process as smooth as possible. </p></div>
+
+                </div>
+            </button>
+    
+            <button class="DOG flex justify-center bg-[#D8D7D8] w-30p  mt-30p hover:bg-[#6D6875] hover:text-white rounded-lg border-[#6D6875]"> 
+                <div class="flex flex-col ">
+                    <img src="images\icons\dark\pets.png" class="mx-auto mt-6">
+                    <div class="m-2 mr-28 ml-28 text-2xl text-[#6D6875] font-bold hover:text-white"><p class="m-5 mt-2 mb-1"> PET ADOPTION FAQS </p></div>
+
+                    <div> <p class="justify-center">Get Answers to all the of your questions<br>you have regarding the adoption. </p></div>
+                </div>
+            </button>
+        </div>
+
+    </div>
 
   </body>
 </html>

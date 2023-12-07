@@ -1,0 +1,141 @@
+/* Full CSS Code */
+
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #6D6875;
+}
+
+.background {
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+.background .shape {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+form {
+    height: 550px; /* Increased form height */
+    width: 370px;
+    background-color: #AFACB3; /* Changed form background color */
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(123, 120, 126, 0.6); /* Changed form border color */
+    box-shadow: 0 0 50px rgba(8, 7, 16, 0.6);
+    padding: 50px 35px;
+}
+
+form * {
+    font-family: 'Poppins', sans-serif;
+    color: #e5e5e5;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+
+form h3 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 42px;
+    text-align: center;
+        color:#080808;
+    }
+
+
+label {
+    display: block;
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+input {
+    display: block;
+    height: 40px;
+    width: 100%;
+    background-color:  #e5e5e5(229, 229, 229, 0.07); /* Corrected background color */
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 6px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+::placeholder {
+    color:  #080808; /* Changed placeholder color */
+    
+}
+
+button {
+    margin-top: 25px;
+    width: 100%;
+    background-color: #6D6875; /* Changed button color */
+    color: #e5e5e5; /* Changed button text color */
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.social {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between; /* Arranges items evenly */
+}
+
+/* Centering the "Or Log In With" and "Need an account? Signup?" */
+.or-login-with,
+.need-account {
+    text-align: center;
+    margin-top: 10px;
+    color: #080808;
+    
+}
+
+.social div {
+    background: #6D6875;
+    width: 150px;
+    border-radius: 25px;
+    padding: 5px 10px 10px 5px;
+    background-color: #6D6875(109, 104, 117, 0.27); /* Corrected background color */
+    color: #eaf0fb; /* Text color */
+    text-align: center;
+}
+
+.social div:hover {
+    background-color:#6D6875 (109, 104, 117, 0.47); /* Corrected background color */
+}
+
+.social .fb {
+    margin-left: 10px;
+    
+}
+
+.social i {
+    margin-right: 1px;
+}
+
+.forgot-password {
+    text-align: center; /* Center align the "Forgot Password?" link */
+    margin-top: 18px; /* Add margin for spacing */
+   
+}

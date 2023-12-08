@@ -98,10 +98,10 @@ button {
 .social {
     margin-top: 30px;
     display: flex;
-    justify-content: space-between; /* Arranges items evenly */
+    justify-content: space-between;
 }
 
-/* Centering the "Or Log In With" and "Need an account? Signup?" */
+
 .or-login-with,
 .need-account {
     text-align: center;

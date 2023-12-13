@@ -103,3 +103,19 @@ X{
     margin-left: 20px;
     margin-right: 20px;
 }
+
+.text-custom-color {
+    color: #6D6875;
+  }
+
+.font-tinos {
+          font-family: 'Tinos', serif;
+      }
+
+.custom-border {
+      border: 2px solid #6D6875; /* Replace "yourHexColor" with your actual hex color */
+      filter: brightness(100%); /* Adjust the percentage to make it darker */
+  }
+
+.gradient {
+    background: linear-gradient(to right, #FFF8DC, #6D6875);   }

@@ -5,23 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="nav.css">
-  <style>
-    .text-custom-color {
-      color: #6D6875;
-    }
-    .font-tinos {
-            font-family: 'Tinos', serif;
-        }
-  </style>
+ 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Tinos:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
 
 <!-- 6D6875  -->
 <body class="text-base">
-    <nav class="bg-white text-custom-color w-full px-52 py-4 -mb-1 flex justify-between items-center">
+    <nav class="bg-white text-custom-color w-full px-52 py-4 -mb-1 -mr-12 flex justify-between items-center">
         <div class="flex items-center">
-            <div class="mr-4">LOGO</div>
+            
+            <div class="mr-5"> <img src="images\logopett.png" class="h-7"></div>
             <div class="space-x-10">
                 <a href="#">Home</a>
                 <a href="#">About</a>
@@ -35,13 +29,7 @@
     </nav>
 
     <div class="cover_pic bg-cover bg-center py-[-1] " style="background-image: url('images/cover.png');">
-        <!-- <div class="b bg-[#6D6875] flex items-center space-x-14 text-[#FFF8DC] px-52 py-6 text-lg">
-            <div>Adopt or Get involved</div>
-            <div>Dogs and Puppies</div>
-            <div>Cats and Kittens</div>
-            <div>Other Types of Pets</div>
-        </div> -->
-
+      
         <div class="flex flex-row mx-auto pt-16 pb-10p justify-center">
             <div class="flex bg-[#FFF8DC] items-center justify-items-center w-55p z-[0] pl-2 text-lg">
                 <input type="text" id="username" name="username" class="p-3 border bg-[#FFF8DC] border-none w-70p rounded">
@@ -59,8 +47,8 @@
         </div>
     </div>
 
-    <div class="flex -mt-32  justify-between px-20p h-48 z-[1] font-bold text-lg">
-        <button class="flex justify-center items-center mt-30p bg-[#FFF8DC] hover:bg-[#D1CFC6] hover:text-white rounded-lg transition-all ease-in duration-150 w-48 border-[#6D6875] border-2 ">
+    <div class="flex -mt-32  justify-between px-20p h-48 z-[1] font-bold text-lg ">
+        <button class="flex justify-center items-center mt-30p bg-[#FFF8DC] hover:bg-[#D1CFC6] hover:text-white rounded-lg transition-all ease-in duration-150 w-48 border-[#6D6875] border-2 lg:h-38 lg:w-38 ">
             <div class="flex flex-col">
                 <img src="images/icons/dark/search.png" class="h-32">
                 <div>DOGS</div>
@@ -97,28 +85,28 @@
         <div class="flex justify-evenly pt-9p pb-10p" >
 
         
-            <button class="DOG flex justify-center items-center  bg-[#FFF8DC] w-30p  mt-30p hover:bg-[#6D6875] hover:text-white rounded-lg"> 
+            <button class="DOG flex justify-center items-center  bg-[#FFF8DC] w-30p  mt-30p hover:bg-[#6D6875] hover:text-white rounded-lg custom-border"> 
                 <div class="flex flex-col">
                     <img src="images\cats\aston.jpeg" class="h-60">
                     <div class="m-2">NAME</div>
                 </div>
             </button>
     
-            <button class="DOG flex justify-center bg-[#FFF8DC] w-30p  mt-30p hover:bg-[#6D6875] hover:text-white rounded-lg"> 
+            <button class="DOG flex justify-center bg-[#FFF8DC] w-30p  mt-30p hover:bg-[#6D6875] hover:text-white rounded-lg custom-border"> 
                 <div class="flex flex-col">
                     <img src="images\cats\aston.jpeg" class="h-60">
                     <div class="m-2">NAME</div>
                 </div>
             </button>
     
-            <button class="DOG flex justify-center bg-[#FFF8DC] w-30p  mt-30p hover:bg-[#6D6875] hover:text-white rounded-lg"> 
+            <button class="DOG flex justify-center bg-[#FFF8DC] w-30p  mt-30p hover:bg-[#6D6875] hover:text-white rounded-lg custom-border"> 
                 <div class="flex flex-col">
                     <img src="images\cats\aston.jpeg" class="h-60">
                     <div class="m-2">NAME</div>
                 </div>
             </button>
     
-            <button class="DOG flex justify-center bg-[#FFF8DC] w-30p  mt-30p hover:bg-[#6D6875] hover:text-white rounded-lg"> 
+            <button class="DOG flex justify-center bg-[#FFF8DC] w-30p  mt-30p hover:bg-[#6D6875] hover:text-white rounded-lg custom-border"> 
                 <div class="flex flex-col">
                     <img src="images\cats\aston.jpeg" class="h-60">
                     <div class="m-2">NAME</div>
@@ -138,26 +126,46 @@
 
 
         <div class="flex justify-evenly pt-5p">
-            <button class="DOG flex justify-center bg-[#D8D7D8] w-30p  mt-30p hover:bg-[#6D6875] hover:text-white rounded-lg"> 
-                <div class="flex flex-col">
+            <button class="group DOG flex justify-center bg-[#D8D7D8] w-30p mt-30p rounded-lg custom-border overflow-hidden transition duration-300 ease-in-out hover:gradient">
+                <div class="flex flex-col items-center group-hover:scale-150">
                     <img src="images\icons\dark\animal-shelter.png" class="mx-auto mt-6">
-                    <div class="m-2 mr-5 ml-5  text-2xl text-[#6D6875] font-bold hover:text-white"><p class="m-5 mt-2 mb-1"> CHECKLIST FOR NEW ADOPTERS </p></div>
-                    
-                    <div class="mb-8"> <p class="justify-center" >Make the adoption process as smooth as possible. </p></div>
-
+                    <div class="m-2 mr-5 ml-5 text-2xl text-[#6D6875] font-bold">
+                        <p class="m-5 mt-2 mb-1"> CHECKLIST FOR NEW ADOPTERS </p>
+                    </div>
+                    <div class="mb-8">
+                        <p class="justify-center">Make the adoption process as smooth as possible.</p>
+                    </div>
                 </div>
             </button>
-    
-            <button class="DOG flex justify-center bg-[#D8D7D8] w-30p  mt-30p hover:bg-[#6D6875] hover:text-white rounded-lg border-[#6D6875]"> 
-                <div class="flex flex-col ">
-                    <img src="images\icons\dark\pets.png" class="mx-auto mt-6">
-                    <div class="m-2 mr-28 ml-28 text-2xl text-[#6D6875] font-bold hover:text-white"><p class="m-5 mt-2 mb-1"> PET ADOPTION FAQS </p></div>
-
-                    <div> <p class="justify-center">Get Answers to all the of your questions<br>you have regarding the adoption. </p></div>
+            
+            <style>
+                .gradient {
+                  background: linear-gradient(to right, #FFF8DC, #6D6875);
+                }
+              </style>
+              
+              <button class="group DOG flex justify-center bg-[#D8D7D8] w-30p mt-30p rounded-lg custom-border overflow-hidden transition duration-300 ease-in-out hover:bg-[#6D6875]">
+                <div class="flex flex-col">
+                    <img src="images\icons\dark\pets.png" class="mx-auto mt-6 transition duration-300 ease-in-out transform group-hover:scale-110">
+                    <div class="m-2 mr-28 ml-28 text-2xl text-[#6D6875] font-bold">
+                        <p class="m-5 mt-2 mb-1"> PET ADOPTION FAQS </p>
+                    </div>
+                    <div>
+                        <p class="justify-center">Get Answers to all the of your questions<br>you have regarding the adoption.</p>
+                    </div>
                 </div>
             </button>
+              
         </div>
 
+    </div>
+
+    <!-- ------------------------------------------------------------------------------------------------------ -->
+
+    <div>
+        <div class="bg-[#6D6875] mt-20">
+            <div class="h-10">
+        </div>
     </div>
 
   </body>

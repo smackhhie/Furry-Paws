@@ -15,8 +15,8 @@
     <nav class="bg-white text-custom-color w-full px-52 py-4 -mb-1 -mr-12 flex justify-between items-center">
         <div class="flex items-center">
             
-            <div class="mr-5"> <img src="images\logopett.png" class="h-7"></div>
-            <div class="space-x-10">
+            <div class="-mt-3 -ml-32 -pl-10 -mb-1"> <img src="images\final_logo.png" class="h-14"></div>
+            <div class="space-x-10 ml-10">
                 <a href="#">Home</a>
                 <a href="#">About</a>
             </div>
@@ -144,7 +144,7 @@
                 }
               </style>
               
-              <button class="group DOG flex justify-center bg-[#D8D7D8] w-30p mt-30p rounded-lg custom-border overflow-hidden transition duration-300 ease-in-out hover:bg-[#6D6875]">
+              <button class="group DOG flex justify-center bg-[#D8D7D8] w-30p mt-30p rounded-lg custom-border overflow-hidden transition duration-300 ease-in-out hover:bg-[#6D6875]" id="faqbutton">
                 <div class="flex flex-col">
                     <img src="images\icons\dark\pets.png" class="mx-auto mt-6 transition duration-300 ease-in-out transform group-hover:scale-110">
                     <div class="m-2 mr-28 ml-28 text-2xl text-[#6D6875] font-bold">
@@ -167,6 +167,13 @@
             <div class="h-10">
         </div>
     </div>
+
+    <script> 
+        document.getElementById('faqbutton').addEventListener('click', function() {
+            // Change the URL to the home page URL
+            window.location.href = 'faq.html';
+        });
+        </script>  
 
   </body>
 </html>
